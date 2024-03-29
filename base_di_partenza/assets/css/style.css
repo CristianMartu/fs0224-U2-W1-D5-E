@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+.padding {
+  padding-inline: 8%;
+}
+.gap {
+  gap: 1rem;
+}
+.flex {
+  display: flex;
+}
+.width-general {
+  width: 84%;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-block: auto;
+}
+.border {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.size {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.width {
+  width: 40%;
+}
+.button {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  font-family: inherit;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2rem;
+}
+header {
+  background-color: #ffc017;
+  height: 480px;
+  margin-top: 78px;
+}
+header menu {
+  justify-content: space-between;
+  padding-block: 1.2rem;
+  position: fixed;
+  z-index: 999;
+  background-color: #ffc017;
+  top: 0;
+}
+.scroll {
+  margin-inline: auto;
+  margin-top: 5rem;
+}
+h1 {
+  font-family: Spectral, serif;
+  font-weight: bold;
+  font-size: 7rem;
+  margin-bottom: 1rem;
+}
+.scroll img {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+}
+.scroll button {
+  padding-inline: 3rem;
+}
+article > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  width: 33%;
+  margin-top: 1rem;
+}
+.card > div:first-of-type {
+  margin-inline: 1rem;
+  color: gray;
+  font-size: 2.5rem;
+  opacity: 0.2;
+  font-weight: bold;
+}
+.card > div:last-of-type > div {
+  display: flex;
+  align-items: center;
+}
+article {
+  margin-top: 3rem;
+  border-bottom: 1px solid grey;
+  padding-bottom: 3rem;
+}
+article p {
+  font-weight: bold;
+  margin-block: 0.5rem;
+}
+.card h3 {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.card address {
+  opacity: 0.7;
+  color: grey;
+  margin-block: 0.5rem;
+}
+.card img {
+  border-radius: 50%;
+}
+article > div:first-of-type {
+  display: flex;
+  align-items: center;
+}
+main > div {
+  display: flex;
+  margin-block: 3rem;
+}
+.card2 {
+  display: flex;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+aside > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+aside h3 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  width: 60%;
+}
+.group-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  justify-content: space-between;
+  width: 60%;
+  border-bottom: 1px solid rgb(0 0 0 / 0.2);
+  padding-bottom: 2rem;
+}
+.group-buttons button {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  border-radius: 3px;
+}
+.group-p {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  justify-content: space-between;
+  width: 60%;
+}
+.group-p p {
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.card2 h3 {
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+.card2 h2 {
+  margin-block: 1rem;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.card2 p {
+  margin-block: 1rem;
+  margin-right: 3rem;
+  color: grey;
+}
+.card2 address {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3rem;
+  color: grey;
+}
+.card2 address span {
+  background-color: #8080803d;
+  border-radius: 20px;
+  padding: 0.4rem;
+}
+.card span {
+  color: rgb(157, 149, 149);
+}
+.image {
+  width: 30%;
+}
+.card2 {
+  margin-bottom: 2rem;
+}
