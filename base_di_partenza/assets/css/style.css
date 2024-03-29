@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+#svg {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+}
 .padding {
   padding-inline: 8%;
 }
@@ -68,11 +73,6 @@ h1 {
   font-weight: bold;
   font-size: 7rem;
   margin-bottom: 1rem;
-}
-.scroll img {
-  position: absolute;
-  top: 5rem;
-  right: 0;
 }
 .scroll button {
   padding-inline: 3rem;
@@ -233,8 +233,8 @@ section {
 .colored {
   background-color: white;
 }
-@media screen and (max-width: 1150px) {
-  .scroll img {
+@media screen and (max-width: 1200px) {
+  #svg {
     display: none;
   }
 }

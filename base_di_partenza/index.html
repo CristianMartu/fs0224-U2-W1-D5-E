@@ -31,9 +31,7 @@
           </p>
           <button class="button size">Start reading</button>
         </div>
-        <!-- <div> -->
-        <img src="assets/imgs/svg/m.svg" alt="m" />
-        <!-- </div> -->
+        <div id="svg"></div>
       </div>
     </header>
     <main class="padding">
@@ -318,16 +316,7 @@
         </aside>
       </div>
     </main>
-    <script>
-      window.addEventListener('scroll', function () {
-        if (window.scrollY > 400) {
-          document.getElementById('btn').classList.add('btn-colored')
-          document.querySelector('menu').classList.add('colored')
-        } else {
-          document.getElementById('btn').classList.remove('btn-colored')
-          document.querySelector('menu').classList.remove('colored')
-        }
-      })
-    </script>
+    <script src="svg.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
