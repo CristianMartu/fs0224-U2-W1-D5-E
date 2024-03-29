@@ -19,7 +19,7 @@
             <li>Membership</li>
             <li>Write</li>
             <li>Sign in</li>
-            <button class="button">Get Started</button>
+            <button id="btn" class="button">Get Started</button>
           </ul>
         </nav>
       </menu>
@@ -318,5 +318,16 @@
         </aside>
       </div>
     </main>
+    <script>
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 400) {
+          document.getElementById('btn').classList.add('btn-colored')
+          document.querySelector('menu').classList.add('colored')
+        } else {
+          document.getElementById('btn').classList.remove('btn-colored')
+          document.querySelector('menu').classList.remove('colored')
+        }
+      })
+    </script>
   </body>
 </html>
